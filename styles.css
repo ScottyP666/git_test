@@ -1,3 +1,11 @@
+html {
+    height: 100% ;
+}
+body {
+    text-align: center;
+    height: auto ;
+}
+
 header > nav {
     display: flex;
     color: #808080;
@@ -36,4 +44,19 @@ a:hover {
 a:active {
     color: #808080;
     text-decoration: none;
+}
+
+#footerLeft {
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+#footerMiddle {
+    justify-content: center;
+    margin: auto;
+}
+
+#footerRight {
+    justify-content: flex-end;
+    margin-left: auto;
 }
