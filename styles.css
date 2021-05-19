@@ -1,0 +1,19 @@
+header > nav {
+    display: flex;
+    border-color: peru;
+    border-style: solid;
+
+}
+
+#navUno {
+    justify-content: flex-start ;
+    margin-right: auto;
+    padding: 0px 15px 0px 15px ;
+    
+}
+#navDos {
+    justify-content: flex-end;
+    margin-left: auto;
+    padding: 0px 15px 0px 15px ;
+
+}
