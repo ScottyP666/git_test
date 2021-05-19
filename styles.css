@@ -1,9 +1,13 @@
-html {
+html, body {
     height: 100% ;
+    margin: 0;
 }
 body {
     text-align: center;
-    height: auto ;
+    width: auto;
+    border-color: red;
+    border-style: solid;
+    
 }
 
 header > nav {
@@ -24,10 +28,7 @@ header > nav {
     padding: 0px 15px 0px 15px ;
 
 }
-footer {
-    color: #808080;
-    display: flex;
-}
+
 
 a:link {
     color: #808080;
@@ -46,10 +47,18 @@ a:active {
     text-decoration: none;
 }
 
+footer {
+    color: #808080;
+    display: flex;
+    align-self: flex-end;
+}
+
+}
 #footerLeft {
     justify-content: flex-start;
     margin-right: auto;
 }
+
 
 #footerMiddle {
     justify-content: center;
