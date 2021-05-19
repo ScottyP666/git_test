@@ -50,7 +50,8 @@ a:active {
 footer {
     color: #808080;
     display: flex;
-    align-self: flex-end;
+    position: relative ;
+    top: 450px;
 }
 
 }
