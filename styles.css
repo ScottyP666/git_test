@@ -91,6 +91,11 @@ footer {
 
 }
 
-#buttonContainer {
-    color: white;
+.button {
+    background-color: rgba(127, 127, 127, 0.068);
+    color: black;
+    height: 45px ;
+    width: 120px; 
+    border: none;
+
 }
